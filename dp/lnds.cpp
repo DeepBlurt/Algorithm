@@ -12,7 +12,7 @@ void test();
 // ref: https://zhuanlan.zhihu.com/p/25173305
 // https://www.jianshu.com/p/92fcc395446e
 
-int main() {
+int lnds() {
 
     vector<int> seq;
     int length;

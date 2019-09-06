@@ -125,7 +125,7 @@ void reverse_pair(int* data, int* temp, int start, int end, int& count){
             temp[k++] = data[start1++];
         else{
             temp[k++] = data[start2++];
-            count += end1 - start1 + 1;
+            count += start2 - k;
         }
     while(start1 <= end1)
         temp[k++] = data[start1++];
